@@ -32,7 +32,7 @@ search(symbol:string):void {
   if(this.isSearch){
 
     this.a++;
-    this.b = this.morinfoService.currencys.find(s => { return s.symbol === symbol })
+    this.b = this.morinfoService.currencys.find(s => {return s.symbol === symbol})
     if(this.b.symbol){
       this.a++;
     }
